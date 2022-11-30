@@ -18,6 +18,13 @@ function Charts() {
           >
             <Input placeholder="input placeholder" />
           </Form.Item>
+          <Form.Item
+            label="Complaint"
+            required
+            tooltip="This is a required field"
+          >
+            <Input placeholder="input placeholder" />
+          </Form.Item>
         </Form>
         <Form>
           <Form.Item className="mt-8">
