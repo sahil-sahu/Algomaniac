@@ -1,0 +1,42 @@
+:root {
+    --thm-base: #3CAA35;
+    --white: #ffffff;
+  }
+
+.brandLogo, .logo img, .mCS_img_loaded{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.search-toggler img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.phone-number-box1 img{
+    padding: 1rem;
+    transition: ease .1s;
+    filter: brightness(.2);
+}
+
+.phone-number-box1:hover img{
+
+    /* display: none; */
+}
+
+.search-toggler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo-box-style2{
+    margin: auto;
+}
+
+
+.about-style2-area{
+    z-index: 10;
+    background-color: #fff;
+}

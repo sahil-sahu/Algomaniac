@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/custom-animate.css">
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/fancybox.min.css">
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/flaticon.css">
-  <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/icomoon.css">
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/imp.css">
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/jquery.bootstrap-touchspin.css">
@@ -50,9 +50,11 @@
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/style.css">
   <link rel="stylesheet" href="https://mehedi.asiandevelopers.com/westo-demo/assets/css/responsive.css">
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="https://mehedi.asiandevelopers.com/westo-demo/assets/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="https://mehedi.asiandevelopers.com/westo-demo/assets/images/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="https://mehedi.asiandevelopers.com/westo-demo/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/imgs/logo.svg">
+  <link rel="icon" type="image/png" href="./assets/imgs/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./assets/imgs/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 
   <!-- Fixing Internet Explorer-->
   <!--[if lt IE 9]>
@@ -64,58 +66,6 @@
 
 
 <body class="">
-
-  <div class="boxed_wrapper ltr">
-
-      <!-- Preloader -->
-      <div class="loader-wrap" style="display: none;">
-          <div class="preloader">
-              <div class="preloader-close">Preloader Close</div>
-          </div>
-          <div class="layer layer-one"><span class="overlay" style="left: 100%; transform: translate3d(0px, 0px, 0px);"></span></div>
-          <div class="layer layer-two"><span class="overlay" style="left: 100%; transform: translate3d(0px, 0px, 0px);"></span></div>
-          <div class="layer layer-three"><span class="overlay" style="left: 100%; transform: translate3d(0px, 0px, 0px);"></span></div>
-      </div>
-
-      <!-- page-direction -->
-      <div class="page_direction">
-          <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
-          <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
-      </div>
-      <!-- page-direction end -->
-
-      <!-- switcher menu -->
-      <div class="switcher">
-          <div class="switch_btn">
-              <button><img src="https://mehedi.asiandevelopers.com/westo-demo/assets/images/icon/color-palette.png" alt="Color Palette"> </button>
-          </div>
-          <div class="switch_menu">
-              <!-- color changer -->
-              <div class="switcher_container">
-                  <ul id="styleOptions" title="switch styling">
-                      <li>
-                          <a href="javascript: void(0)" data-theme="blue" class="blue-color"></a>
-                      </li>
-                      <li>
-                          <a href="javascript: void(0)" data-theme="pink" class="pink-color"></a>
-                      </li>
-                      <li>
-                          <a href="javascript: void(0)" data-theme="violet" class="violet-color"></a>
-                      </li>
-                      <li>
-                          <a href="javascript: void(0)" data-theme="crimson" class="crimson-color"></a>
-                      </li>
-                      <li>
-                          <a href="javascript: void(0)" data-theme="orange" class="orange-color"></a>
-                      </li>
-                      <li>
-                          <a href="javascript: void(0)" data-theme="green" class="green-color"></a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <!-- end switcher menu -->
 
       <!-- Main header-->
       <header class="main-header header-style-two">
@@ -129,12 +79,12 @@
                       <div class="header-style2__left">
                           <div class="main-logo-box-style2">
                               <a href="index.html">
-                                  <img src="https://mehedi.asiandevelopers.com/westo-demo/assets/images/resources/logo.png" alt="Awesome Logo" title="">
+                                  <img class="brandLogo" src="./assets/imgs/logo.svg" alt="Awesome Logo" title="">
                               </a>
                           </div>
                           <div class="serach-button-style1">
                               <button type="button" class="search-toggler">
-                                  <i class="icon-magnifying-glass"></i>
+                                <img src=".\assets\imgs\icons8-search.svg" alt="">
                               </button>
                           </div>
                       </div>
@@ -155,120 +105,29 @@
                               <nav class="main-menu style1 navbar-expand-md navbar-light">
                                   <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                       <ul class="navigation clearfix">
-                                          <li class="dropdown current"><a href="#"><span>Home</span></a>
-                                              <ul>
-                                                  <li><a href="index.html">Home Page 01</a></li>
-                                                  <li><a href="index-2.html">Home Page 02</a></li>
-                                                  <li><a href="index-onepage.html">Home OnePage</a></li>
-                                                  <li><a href="index-rtl.html">RTL Home</a></li>
-                                                  <li class="dropdown"><a href="#">Header Styles</a>
-                                                      <ul>
-                                                          <li><a href="index.html">Header Style One</a></li>
-                                                          <li><a href="index-2.html">Header Style Two</a></li>
-                                                      </ul>
-                                                  <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Elements</span></a>
-                                              <div class="megamenu">
-                                                  <div class="row clearfix">
-                                                      <div class="col-xl-6 column">
-                                                          <ul>
-                                                              <li>
-                                                                  <a href="about-element-1.html">About Block 01</a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="about-element-2.html">About Block 02</a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-1.html">
-                                                                      Service Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-2.html">
-                                                                      Service Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-3.html">
-                                                                      Service Block 03
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-1.html">
-                                                                      News Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-2.html">
-                                                                      News Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-3.html">
-                                                                      News Block 03
-                                                                  </a>
-                                                              </li>
-                                                          </ul>
-                                                      </div>
-                                                      <div class="col-xl-6 column">
-                                                          <ul>
-                                                              <li>
-                                                                  <a href="team-element-1.html">
-                                                                      Team Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="team-element-2.html">
-                                                                      Team Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="team-element-3.html">
-                                                                      Team Block 03
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="testimonial-element-1.html">
-                                                                      Testimonials Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="testimonial-element-2.html">
-                                                                      Testimonials Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="partner-element-1.html">
-                                                                      Partner Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="faq-element-1.html">
-                                                                      FAQ'S Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="contact-element-1.html">
-                                                                      Contact Block
-                                                                  </a>
-                                                              </li>
-                                                          </ul>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Services</span></a>
-                                              <ul>
+                                          <li class="current"><a href="/"><span>Home</span></a>
+                                          <!-- <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li> -->
+                                          <li class="dropdown"><a href="#"><span>About Us</span></a>
+                                            <ul>
+                                                <li><a href="about.html">About Our Company</a></li>
+                                                <li><a href="industries.html">Our Industries</a></li>
+                                                <li><a href="industries-details.html">Industries Details</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="faq.html">FAQ’s</a></li>
+                                                <li><a href="error.html">404 Error page</a></li>
+                                            </ul>
+                                        <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
+                                          <li class="dropdown"><a href="#"><span>Complaint</span></a>
+                                              <!-- <ul>
                                                   <li><a href="services.html">View All Services</a></li>
                                                   <li><a href="services-single-1.html">Garbage Pickup</a></li>
                                                   <li><a href="services-single-2.html">Dumpster Rental</a></li>
                                                   <li><a href="services-single-3.html">Portable Toilets</a></li>
                                                   <li><a href="services-single-4.html">Residential Recycling</a></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Pages</span></a>
+                                              </ul> -->
+                                          <!-- <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li> -->
+                                          <li class="dropdown"><a href="#"><span>Contact Us</span></a>
                                               <ul>
                                                   <li><a href="about.html">About Our Company</a></li>
                                                   <li><a href="industries.html">Our Industries</a></li>
@@ -287,7 +146,7 @@
                                                   <li><a href="blog-single.html">Blog Details</a></li>
                                               </ul>
                                           <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li><a href="contact.html"><span>Contact</span></a></li>
+                                          <li><a href="contact.html"><span>Login</span></a></li>
                                       </ul>
                                   </div>
                               </nav>
@@ -300,7 +159,7 @@
                       <div class="header-style2__right">
                           <div class="phone-number-box1">
                               <div class="icon">
-                                  <span class="icon-phone-ringing"></span>
+                                  <img src=".\assets\imgs\icons8-ringer-volume-100.png" alt="">
                               </div>
                               <div class="phone">
                                   <p>Have any questions?</p>
@@ -322,7 +181,7 @@
                       <!--Logo-->
                       <div class="logo float-left">
                           <a href="index.html" class="img-responsive">
-                              <img src="https://mehedi.asiandevelopers.com/westo-demo/assets/images/resources/sticky-logo.png" alt="" title="">
+                              <img src="./assets/imgs/logo.svg" alt="" title="">
                           </a>
                       </div>
                       <!--Right Col-->
@@ -330,144 +189,6 @@
                           <!-- Main Menu -->
                           <nav class="main-menu clearfix">
                               <!--Keep This Empty / Menu will come through Javascript-->
-                          
-                                  <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                      <ul class="navigation clearfix">
-                                          <li class="dropdown current"><a href="#"><span>Home</span></a>
-                                              <ul>
-                                                  <li><a href="index.html">Home Page 01</a></li>
-                                                  <li><a href="index-2.html">Home Page 02</a></li>
-                                                  <li><a href="index-onepage.html">Home OnePage</a></li>
-                                                  <li><a href="index-rtl.html">RTL Home</a></li>
-                                                  <li class="dropdown"><a href="#">Header Styles</a>
-                                                      <ul>
-                                                          <li><a href="index.html">Header Style One</a></li>
-                                                          <li><a href="index-2.html">Header Style Two</a></li>
-                                                      </ul>
-                                                  <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Elements</span></a>
-                                              <div class="megamenu">
-                                                  <div class="row clearfix">
-                                                      <div class="col-xl-6 column">
-                                                          <ul>
-                                                              <li>
-                                                                  <a href="about-element-1.html">About Block 01</a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="about-element-2.html">About Block 02</a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-1.html">
-                                                                      Service Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-2.html">
-                                                                      Service Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="service-element-3.html">
-                                                                      Service Block 03
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-1.html">
-                                                                      News Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-2.html">
-                                                                      News Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="news-element-3.html">
-                                                                      News Block 03
-                                                                  </a>
-                                                              </li>
-                                                          </ul>
-                                                      </div>
-                                                      <div class="col-xl-6 column">
-                                                          <ul>
-                                                              <li>
-                                                                  <a href="team-element-1.html">
-                                                                      Team Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="team-element-2.html">
-                                                                      Team Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="team-element-3.html">
-                                                                      Team Block 03
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="testimonial-element-1.html">
-                                                                      Testimonials Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="testimonial-element-2.html">
-                                                                      Testimonials Block 02
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="partner-element-1.html">
-                                                                      Partner Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="faq-element-1.html">
-                                                                      FAQ'S Block 01
-                                                                  </a>
-                                                              </li>
-                                                              <li>
-                                                                  <a href="contact-element-1.html">
-                                                                      Contact Block
-                                                                  </a>
-                                                              </li>
-                                                          </ul>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Services</span></a>
-                                              <ul>
-                                                  <li><a href="services.html">View All Services</a></li>
-                                                  <li><a href="services-single-1.html">Garbage Pickup</a></li>
-                                                  <li><a href="services-single-2.html">Dumpster Rental</a></li>
-                                                  <li><a href="services-single-3.html">Portable Toilets</a></li>
-                                                  <li><a href="services-single-4.html">Residential Recycling</a></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Pages</span></a>
-                                              <ul>
-                                                  <li><a href="about.html">About Our Company</a></li>
-                                                  <li><a href="industries.html">Our Industries</a></li>
-                                                  <li><a href="industries-details.html">Industries Details</a></li>
-                                                  <li><a href="testimonials.html">Testimonials</a></li>
-                                                  <li><a href="team.html">Team</a></li>
-                                                  <li><a href="faq.html">FAQ’s</a></li>
-                                                  <li><a href="error.html">404 Error page</a></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Blog</span></a>
-                                              <ul>
-                                                  <li><a href="blog.html">Blog Style 01</a></li>
-                                                  <li><a href="blog-2.html">Blog Style 02</a></li>
-                                                  <li><a href="blog-3.html">Blog Style 03</a></li>
-                                                  <li><a href="blog-single.html">Blog Details</a></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li><a href="contact.html"><span>Contact</span></a></li>
-                                      </ul>
-                                  </div>
                               </nav>
                       </div>
                   </div>
@@ -480,13 +201,13 @@
               <div class="menu-backdrop"></div>
               <div class="close-btn"><span class="icon fa fa-times-circle"></span></div>
               <nav class="menu-box mCustomScrollbar _mCS_1"><div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" style="max-height: 519px;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
-                  <div class="nav-logo"><a href="index.html"><img src="https://mehedi.asiandevelopers.com/westo-demo/assets/images/resources/mobilemenu-logo.png" alt="" title="" class="mCS_img_loaded"></a></div>
+                  <div class="nav-logo"><a href="index.html"><img src="./assets/imgs/logo.svg" alt="" title="" class="mCS_img_loaded"></a></div>
                   <div class="menu-outer">
                       <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                   
                                   <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                       <ul class="navigation clearfix">
-                                          <li class="dropdown current"><a href="#"><span>Home</span></a>
+                                          <li class="current"><a href="#"><span>Home</span></a>
                                               <ul>
                                                   <li><a href="index.html">Home Page 01</a></li>
                                                   <li><a href="index-2.html">Home Page 02</a></li>
@@ -499,8 +220,8 @@
                                                       </ul>
                                                   <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
                                               </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Elements</span></a>
+                                          <!-- <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li> -->
+                                          <li class="dropdown"><a href="#"><span>About Us</span></a>
                                               <div class="megamenu">
                                                   <div class="row clearfix">
                                                       <div class="col-xl-6 column">
@@ -590,20 +311,8 @@
                                                   </div>
                                               </div>
                                           <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Services</span></a>
-                                              <ul>
-                                                  <li><a href="services.html">View All Services</a></li>
-                                                  <li><a href="services-single-1.html">Garbage Pickup</a></li>
-                                                  <li><a href="services-single-2.html">Dumpster Rental</a></li>
-                                                  <li><a href="services-single-3.html">Portable Toilets</a></li>
-                                                  <li><a href="services-single-4.html">Residential Recycling</a></li>
-                                              </ul>
-                                          <div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></li>
-                                          <li class="dropdown"><a href="#"><span>Pages</span></a>
-                                              <ul>
-                                                  <li><a href="about.html">About Our Company</a></li>
-                                                  <li><a href="industries.html">Our Industries</a></li>
-                                                  <li><a href="industries-details.html">Industries Details</a></li>
+                                                  <li><a href="testimonials.html">Complaint</a></li>
+                                                  <li><a href="testimonials.html">Contact Us</a></li>
                                                   <li><a href="testimonials.html">Testimonials</a></li>
                                                   <li><a href="team.html">Team</a></li>
                                                   <li><a href="faq.html">FAQ’s</a></li>
@@ -655,7 +364,7 @@
                   
 
               <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3048px, 0px, 0px); transition: all 0s ease 0s; width: 7112px;"><div class="owl-item cloned" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-1.jpg)">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro1.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -677,7 +386,7 @@
                           </div>
                       </div>
                   </div></div><div class="owl-item cloned" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-3.jpg)">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro2.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -699,7 +408,7 @@
                           </div>
                       </div>
                   </div></div><div class="owl-item" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-1.jpg)">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro3.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -721,7 +430,7 @@
                           </div>
                       </div>
                   </div></div><div class="owl-item active" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-1.jpg)">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro4.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -743,7 +452,7 @@
                           </div>
                       </div>
                   </div></div><div class="owl-item" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-3.jpg)">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro5.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -764,8 +473,10 @@
                               </div>
                           </div>
                       </div>
-                  </div></div><div class="owl-item cloned" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-1.jpg)">
+
+
+                  <!-- </div></div><div class="owl-item cloned" style="width: 1016px;"><div class="slide">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro6.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -786,8 +497,9 @@
                               </div>
                           </div>
                       </div>
-                  </div></div><div class="owl-item cloned" style="width: 1016px;"><div class="slide">
-                      <div class="image-layer" style="background-image:url(https://mehedi.asiandevelopers.com/westo-demo/assets/images/slides/slide-v2-1.jpg)">
+                  </div></div>
+                  <div class="owl-item cloned" style="width: 1016px;"><div class="slide">
+                      <div class="image-layer" style="background-image:url('./assets/imgs/caro7.png')">
                       </div>
                       <div class="auto-container">
                           <div class="content">
@@ -808,7 +520,10 @@
                               </div>
                           </div>
                       </div>
-                  </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="icon-right-arrow"></span></button><button type="button" role="presentation" class="owl-next"><span class="icon-right-arrow right"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                  </div></div> -->
+
+
+                </div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="icon-right-arrow"></span></button><button type="button" role="presentation" class="owl-next"><span class="icon-right-arrow right"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
           </div>
       </section>
       <!-- End Main Slider -->
@@ -2207,7 +1922,7 @@
                   <div class="container">
                       <div class="bottom-inner">
                           <div class="copyright">
-                              <p>Copyright © 2022 <a href="index.html">Westo</a> All Rights Reserved.</p>
+                              <p>Copyright © 2022 <a href="index.html">CleanO</a> All Rights Reserved.</p>
                           </div>
                       </div>
                   </div>
