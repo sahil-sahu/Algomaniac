@@ -63,6 +63,9 @@ const columns = [
     ],
     onFilter: (value, record) => record.address.indexOf(value) === 0,
   },
+  {
+    dataIndex: "delete",
+  },
 ];
 const data = [
   {
@@ -71,6 +74,11 @@ const data = [
     // age: 32,
     houseId: 11101,
     address: "unit-1",
+    delete: (
+      <button className="bg-blue-400 rounded-md p-2 text-white font-bold">
+        delete
+      </button>
+    ),
   },
   {
     key: "2",
@@ -78,6 +86,11 @@ const data = [
     // age: 42,
     houseId: 11102,
     address: "unit-2",
+    delete: (
+      <button className="bg-blue-400 rounded-md p-2 text-white font-bold">
+        delete
+      </button>
+    ),
   },
   {
     key: "3",
@@ -85,6 +98,11 @@ const data = [
     // age: 32,
     houseId: 11103,
     address: "unit-3",
+    delete: (
+      <button className="bg-blue-400 rounded-md p-2 text-white font-bold">
+        delete
+      </button>
+    ),
   },
   {
     key: "4",
@@ -92,6 +110,11 @@ const data = [
     // age: 32,
     houseId: 11104,
     address: "unit-4",
+    delete: (
+      <button className="bg-blue-400 rounded-md p-2 text-white font-bold">
+        delete
+      </button>
+    ),
   },
 ];
 const onChange = (pagination, filters, sorter, extra) => {
@@ -126,6 +149,11 @@ const HouseDetails = () => {
           <Input placeholder="Name" />
           <Input placeholder="House Id" />
           <Input placeholder="Address" />
+        </div>
+        <div>
+          <Button type="primary" className="mt-4">
+            Submit
+          </Button>
         </div>
       </Drawer>
     </div>
