@@ -51,6 +51,21 @@ const routes = [
     icon: "ButtonsIcon",
     name: "View Complaints",
   },
+  {
+    path: "/app/QrCode",
+    icon: "ButtonsIcon",
+    name: "Qr Code",
+  },
+  {
+    path: "/app/JourneyPlanner",
+    icon: "ButtonsIcon",
+    name: "Journey Planner",
+  },
+  {
+    path: "/app/Tasks",
+    icon: "ButtonsIcon",
+    name: "Tasks",
+  },
   // {
   //   path: "/app/modals",
   //   icon: "ModalsIcon",
