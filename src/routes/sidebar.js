@@ -51,6 +51,17 @@ const routes = [
     icon: "ButtonsIcon",
     name: "View Complaints",
   },
+  {
+    path: "/app/BinAdmin",
+    icon: "ButtonsIcon",
+    name: "Manage Bins",
+  },
+  {
+    path: "/app/ManageEmployee",
+    icon: "ButtonsIcon",
+    name: "Manage Employee",
+  },
+
   // {
   //   path: "/app/modals",
   //   icon: "ModalsIcon",
