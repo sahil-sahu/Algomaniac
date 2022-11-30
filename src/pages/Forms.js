@@ -24,7 +24,7 @@ function Forms() {
       render: (tags) => (
         <span>
           {tags.map((tag) => {
-            let color = tag.length > 5 ? "geekblue" : "green";
+            let color = "green";
             if (tag === "pending") {
               color = "volcano";
             }
