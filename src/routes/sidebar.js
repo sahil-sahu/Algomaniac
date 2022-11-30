@@ -17,6 +17,11 @@ const routes = [
     name: "User History",
   },
   {
+    path: "/app/NearbyBin",
+    icon: "FormsIcon",
+    name: "Nearby Bin",
+  },
+  {
     path: "/app/cards",
     icon: "CardsIcon",
     name: "Pick-up Request",

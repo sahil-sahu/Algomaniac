@@ -4,6 +4,7 @@ import { lazy } from "react";
 const Dashboard = lazy(() => import("../pages/Dashboard"));
 const Forms = lazy(() => import("../pages/Forms"));
 const Cards = lazy(() => import("../pages/Cards"));
+const NearbyBin = lazy(() => import("../pages/NearbyBin"));
 const Charts = lazy(() => import("../pages/Charts"));
 const Buttons = lazy(() => import("../pages/Buttons"));
 const Modals = lazy(() => import("../pages/Modals"));
@@ -25,6 +26,10 @@ const routes = [
   {
     path: "/dashboard", // the url
     component: Dashboard, // view rendered
+  },
+  {
+    path: "/NearbyBin", // the url
+    component: NearbyBin, // view rendered
   },
   {
     path: "/forms",
