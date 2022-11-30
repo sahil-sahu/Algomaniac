@@ -39,3 +39,21 @@
     font-size: 1rem;
     font-weight: 500;
 }
+
+.scrap {
+  background-image: url('/scrapy.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bin {
+  background-image: url('/mdi_bin.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
