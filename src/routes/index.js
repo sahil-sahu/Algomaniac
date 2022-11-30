@@ -6,6 +6,10 @@ const Forms = lazy(() => import("../pages/Forms"));
 const Cards = lazy(() => import("../pages/Cards"));
 const Charts = lazy(() => import("../pages/Charts"));
 const Buttons = lazy(() => import("../pages/Buttons"));
+const TrackBus = lazy(() => import("../pages/TrackBus"));
+const ViewComplaints = lazy(() => import("../pages/ViewComplaints"));
+const HouseDetails = lazy(() => import("../pages/HouseDetails"));
+const ManageBeans = lazy(() => import("../pages/ManageBeans"));
 const Modals = lazy(() => import("../pages/Modals"));
 const Tables = lazy(() => import("../pages/Tables"));
 const Page404 = lazy(() => import("../pages/404"));
@@ -41,6 +45,22 @@ const routes = [
   {
     path: "/buttons",
     component: Buttons,
+  },
+  {
+    path: "/ManageBeans",
+    component: ManageBeans,
+  },
+  {
+    path: "/TrackBus",
+    component: TrackBus,
+  },
+  {
+    path: "/HouseDetails",
+    component: HouseDetails,
+  },
+  {
+    path: "/ViewComplaints",
+    component: ViewComplaints,
   },
   {
     path: "/modals",

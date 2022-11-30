@@ -31,6 +31,26 @@ const routes = [
     icon: "ButtonsIcon",
     name: "Check Credit Points",
   },
+  {
+    path: "/app/ManageBeans",
+    icon: "ButtonsIcon",
+    name: "Manage Beans",
+  },
+  {
+    path: "/app/TrackBus",
+    icon: "ButtonsIcon",
+    name: "TrackBus",
+  },
+  {
+    path: "/app/HouseDetails",
+    icon: "ButtonsIcon",
+    name: "House Details",
+  },
+  {
+    path: "/app/ViewComplaints",
+    icon: "ButtonsIcon",
+    name: "View Complaints",
+  },
   // {
   //   path: "/app/modals",
   //   icon: "ModalsIcon",
