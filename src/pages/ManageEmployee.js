@@ -4,6 +4,13 @@ import { useState } from "react";
 
 function ManageEmployee() {
   const [open, setOpen] = useState(false);
+  const [name, setName] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name);
+  };
+
   const showDrawer = () => {
     setOpen(true);
   };
@@ -75,16 +82,25 @@ function ManageEmployee() {
         {/* <p>Some contents...</p>
         <p>Some contents...</p>
         <p>Some contents...</p> */}
-        <div className="flex flex-col space-y-3">
-          <Input placeholder="Name" />
+        <form className="flex flex-col space-y-3" onSubmit={handleSubmit}>
+          <Input
+            type="text"
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+            placeholder="Name"
+          />
           <Input placeholder="Aadhar Number" />
           <Input placeholder="Employee Id" />
-        </div>
-        <div>
-          <Button type="primary" className="mt-4">
+
+          <Button
+            type="submit"
+            className="mt-4 bg-blue-600 rounded-lg text-white"
+          >
             Submit
           </Button>
-        </div>
+        </form>
       </Drawer>
     </div>
   );
