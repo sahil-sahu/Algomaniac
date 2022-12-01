@@ -9,6 +9,8 @@ const Buttons = lazy(() => import("../pages/Buttons"));
 const TrackBus = lazy(() => import("../pages/TrackBus"));
 const BinAdmin = lazy(() => import("../pages/BinAdmin"));
 const Report = lazy(() => import("../pages/Report"));
+const CamAdmin = lazy(() => import("../pages/CamAdmin"));
+const CamWorker = lazy(() => import("../pages/CamWorker"));
 const ManageEmployee = lazy(() => import("../pages/ManageEmployee"));
 const ViewComplaints = lazy(() => import("../pages/ViewComplaints"));
 const HouseDetails = lazy(() => import("../pages/HouseDetails"));
@@ -56,6 +58,14 @@ const routes = [
   {
     path: "/ManageBeans",
     component: ManageBeans,
+  },
+  {
+    path: "/CamAdmin",
+    component: CamAdmin,
+  },
+  {
+    path: "/CamWorker",
+    component: CamWorker,
   },
   {
     path: "/TrackBus",
