@@ -34,13 +34,19 @@ const routes = [
   {
     path: "/app/ManageBeans",
     icon: "ButtonsIcon",
-    name: "Manage Beans",
+    name: "Nearby Beans",
   },
   {
     path: "/app/TrackBus",
     icon: "ButtonsIcon",
     name: "TrackBus",
   },
+  {
+    path: "/app/Dashboard",
+    icon: "ButtonsIcon",
+    name: "Dashboard",
+  },
+
   {
     path: "/app/HouseDetails",
     icon: "ButtonsIcon",
@@ -60,6 +66,11 @@ const routes = [
     path: "/app/ManageEmployee",
     icon: "ButtonsIcon",
     name: "Manage Employee",
+  },
+  {
+    path: "/app/Report",
+    icon: "ButtonsIcon",
+    name: "Report",
   },
 
   // {

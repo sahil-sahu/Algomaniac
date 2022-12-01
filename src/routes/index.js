@@ -8,6 +8,7 @@ const Charts = lazy(() => import("../pages/Charts"));
 const Buttons = lazy(() => import("../pages/Buttons"));
 const TrackBus = lazy(() => import("../pages/TrackBus"));
 const BinAdmin = lazy(() => import("../pages/BinAdmin"));
+const Report = lazy(() => import("../pages/Report"));
 const ManageEmployee = lazy(() => import("../pages/ManageEmployee"));
 const ViewComplaints = lazy(() => import("../pages/ViewComplaints"));
 const HouseDetails = lazy(() => import("../pages/HouseDetails"));
@@ -59,6 +60,10 @@ const routes = [
   {
     path: "/TrackBus",
     component: TrackBus,
+  },
+  {
+    path: "/Report",
+    component: Report,
   },
   {
     path: "/ManageEmployee",
