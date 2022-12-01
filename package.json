@@ -24,6 +24,7 @@
     "chart.js": "2.9.3",
     "classnames": "2.2.6",
     "faker": "4.1.0",
+    "mapbox-gl": "*",
     "modern-react-qr-reader": "*",
     "react": "^16.13.1",
     "react-chartjs-2": "2.9.0",
