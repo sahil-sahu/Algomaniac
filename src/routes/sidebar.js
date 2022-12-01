@@ -12,7 +12,7 @@ const routes = [
   //   name: "QR-FILL USER DATA", // name that appear in Sidebar
   // },
   {
-    path: "/app/forms",
+    path: "/app/UserHistory",
     icon: "FormsIcon",
     name: "User History",
   },
@@ -22,17 +22,17 @@ const routes = [
     name: "Nearby Bin",
   },
   {
-    path: "/app/cards",
+    path: "/app/PickUpRequest",
     icon: "CardsIcon",
     name: "Pick-up Request",
   },
   {
-    path: "/app/charts",
+    path: "/app/AddComplaint",
     icon: "ChartsIcon",
     name: "Add complaint",
   },
   {
-    path: "/app/buttons",
+    path: "/app/CheckCreditPoint",
     icon: "ButtonsIcon",
     name: "Check Credit Points",
   },

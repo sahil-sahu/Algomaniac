@@ -1,7 +1,7 @@
 import React from "react";
 import { Tag, Table } from "antd";
 
-function Forms() {
+function UserHistory() {
   const columns = [
     {
       title: "Address",
@@ -41,12 +41,12 @@ function Forms() {
       title: "Action",
       key: "action",
       render: (text, record) => (
-        <span>
+        <button className="p-2 font-bold text-white bg-blue-300 rounded-md hover:bg-blue-400">
           {/* <a>Invite {record.name}</a>
           <Divider type="vertical" />
           <a>Delete</a> */}
           Delete
-        </span>
+        </button>
       ),
     },
   ];
@@ -56,7 +56,7 @@ function Forms() {
       key: "1",
       // name: "John Brown",
       // age: 32,
-      address: "New York No. 1 Lake Park",
+      address: "plot-no:45 Unit-8",
       complaint: "get the trash out of the park",
       tags: ["pending"],
     },
@@ -64,7 +64,7 @@ function Forms() {
       key: "2",
       // name: "Jim Green",
       // age: 42,
-      address: "London No. 1 Lake Park",
+      address: "plot-no:45 Unit-9",
       complaint: "get the trash out of the park",
       tags: ["pending"],
     },
@@ -72,7 +72,7 @@ function Forms() {
       key: "3",
       // name: "Joe Black",
       // age: 32,
-      address: "Sidney No. 1 Lake Park",
+      address: "plot-no:45 Unit-10",
       complaint: "get the trash out of the park",
       tags: ["completed"],
     },
@@ -86,4 +86,4 @@ function Forms() {
   );
 }
 
-export default Forms;
+export default UserHistory;

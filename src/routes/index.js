@@ -2,11 +2,11 @@ import { lazy } from "react";
 
 // use lazy for better code splitting, a.k.a. load faster
 const Dashboard = lazy(() => import("../pages/Dashboard"));
-const Forms = lazy(() => import("../pages/Forms"));
-const Cards = lazy(() => import("../pages/Cards"));
+const UserHistory = lazy(() => import("../pages/UserHistory"));
+const PickUpRequest = lazy(() => import("../pages/PickUpRequest"));
 const NearbyBin = lazy(() => import("../pages/NearbyBin"));
-const Charts = lazy(() => import("../pages/Charts"));
-const Buttons = lazy(() => import("../pages/Buttons"));
+const AddComplaint = lazy(() => import("../pages/AddComplaint"));
+const CheckCreditPoint = lazy(() => import("../pages/CheckCreditPoint"));
 const Modals = lazy(() => import("../pages/Modals"));
 const Tables = lazy(() => import("../pages/Tables"));
 const Page404 = lazy(() => import("../pages/404"));
@@ -32,20 +32,20 @@ const routes = [
     component: NearbyBin, // view rendered
   },
   {
-    path: "/forms",
-    component: Forms,
+    path: "/UserHistory",
+    component: UserHistory,
   },
   {
-    path: "/cards",
-    component: Cards,
+    path: "/PickUpRequest",
+    component: PickUpRequest,
   },
   {
-    path: "/charts",
-    component: Charts,
+    path: "/AddComplaint",
+    component: AddComplaint,
   },
   {
-    path: "/buttons",
-    component: Buttons,
+    path: "/CheckCreditPoint",
+    component: CheckCreditPoint,
   },
   {
     path: "/modals",

@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "antd";
 
-const Buttons = () => (
+const CheckCreditPoint = () => (
   <div className="site-card-border-less-wrapper mt-8">
     <Card
       title="Rewards"
@@ -16,4 +16,4 @@ const Buttons = () => (
   </div>
 );
 
-export default Buttons;
+export default CheckCreditPoint;
