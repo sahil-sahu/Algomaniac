@@ -1,0 +1,55 @@
+.mapboxgl-map{
+    height: 80vh;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .markericon img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .liveLocation {
+    background-color: blue;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .house-g{
+    background-image: url('/greenHouse.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.house-r{
+    background-image: url('/redHouse.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    cursor: pointer;
+  }
+
+  .bin{
+    background-image: url('/bin.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    cursor: pointer;
+  }  
+
+  .truck{
+    background-image: url('/truck.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    cursor: pointer;
+  }
