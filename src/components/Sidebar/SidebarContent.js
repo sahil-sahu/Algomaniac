@@ -3,7 +3,7 @@ import routes from "../../routes/sidebar";
 import { NavLink, Route } from "react-router-dom";
 import * as Icons from "../../icons";
 import SidebarSubmenu from "./SidebarSubmenu";
-// import { Button } from "@windmill/react-ui";
+import { Button } from "@windmill/react-ui";
 
 function Icon({ icon, ...props }) {
   const Icon = Icons[icon];
@@ -14,10 +14,10 @@ function SidebarContent() {
   return (
     <div className="py-4 text-gray-500 dark:text-gray-400">
       <a
-        className="ml-6 text-2xl font-extrabold text-green-600 dark:text-gray-200"
+        className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
         href="/"
       >
-        CleanO.
+        Green
       </a>
       <ul className="mt-6">
         {routes.map((route) =>
@@ -48,6 +48,14 @@ function SidebarContent() {
           )
         )}
       </ul>
+      <div className="px-6 my-6">
+        <Button>
+          Create account
+          <span className="ml-2" aria-hidden="true">
+            +
+          </span>
+        </Button>
+      </div>
     </div>
   );
 }
