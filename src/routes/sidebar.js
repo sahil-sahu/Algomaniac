@@ -34,7 +34,7 @@ const routes = [
   {
     path: "/app/ManageBeans",
     icon: "ButtonsIcon",
-    name: "Nearby Beans",
+    name: "Nearby Bins",
   },
   {
     path: "/app/TrackBus",
