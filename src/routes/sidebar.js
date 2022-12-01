@@ -36,15 +36,16 @@ const routes = [
     icon: "ButtonsIcon",
     name: "Nearby Bins",
   },
-  {
-    path: "/app/TrackBus",
-    icon: "ButtonsIcon",
-    name: "TrackBus",
-  },
+
   {
     path: "/app/Dashboard",
     icon: "ButtonsIcon",
     name: "Dashboard",
+  },
+  {
+    path: "/app/TrackBus",
+    icon: "ButtonsIcon",
+    name: "TrackBus",
   },
 
   {

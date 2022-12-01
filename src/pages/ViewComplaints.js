@@ -51,12 +51,12 @@ const ViewComplaints = () => {
       dataIndex: "name",
       filters: [
         {
-          text: "Joe",
-          value: "Joe",
+          text: "Ram",
+          value: "Ram",
         },
         {
-          text: "Jim",
-          value: "Jim",
+          text: "Sham",
+          value: "Sham",
         },
         {
           text: "Submenu",
@@ -100,28 +100,28 @@ const ViewComplaints = () => {
   const data = [
     {
       key: "1",
-      name: "John Brown",
+      name: "Ram",
       houseId: 11101,
       address: "unit-1",
       complaint: "abdcbhdc",
     },
     {
       key: "2",
-      name: "Jim Green",
+      name: "Sham",
       houseId: 11102,
       address: "unit-2",
       complaint: "abdcbhdc",
     },
     {
       key: "3",
-      name: "Joe Black",
+      name: "Rohan",
       houseId: 11103,
       address: "unit-3",
       complaint: "abdcbhdc",
     },
     {
       key: "4",
-      name: "Jim Red",
+      name: "Nitin",
       houseId: 11104,
       address: "unit-4",
       complaint: "abdcbhdc",

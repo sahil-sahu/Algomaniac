@@ -8,26 +8,12 @@ const columns = [
     dataIndex: "name",
     filters: [
       {
-        text: "Joe",
-        value: "Joe",
+        text: "Ram",
+        value: "Ram",
       },
       {
-        text: "Jim",
-        value: "Jim",
-      },
-      {
-        text: "Submenu",
-        value: "Submenu",
-        children: [
-          {
-            text: "Green",
-            value: "Green",
-          },
-          {
-            text: "Black",
-            value: "Black",
-          },
-        ],
+        text: "Sham",
+        value: "Sham",
       },
     ],
     // specify the condition of filtering result
@@ -70,31 +56,31 @@ const columns = [
 const data = [
   {
     key: "1",
-    name: "John Brown",
+    name: "Nitin",
     // age: 32,
     houseId: 11101,
-    address: "unit-1",
+    address: " Bhubaneswar unit-1",
   },
   {
     key: "2",
-    name: "Jim Green",
+    name: "Neha",
     // age: 42,
     houseId: 11102,
-    address: "unit-2",
+    address: " Cuttack unit-2",
   },
   {
     key: "3",
-    name: "Joe Black",
+    name: "Ruby",
     // age: 32,
     houseId: 11103,
-    address: "unit-3",
+    address: "Bhubaneswar unit-3",
   },
   {
     key: "4",
-    name: "Jim Red",
+    name: "Rohan",
     // age: 32,
     houseId: 11104,
-    address: "unit-4",
+    address: "Cuttack unit-4",
   },
 ];
 const onChange = (pagination, filters, sorter, extra) => {

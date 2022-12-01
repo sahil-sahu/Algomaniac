@@ -5,6 +5,7 @@ import { useState } from "react";
 function ManageEmployee() {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
+  const [file, setFile] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,6 +37,27 @@ function ManageEmployee() {
       render: (name) => <span>{name}</span>,
     },
     {
+      title: "Upload picture",
+      key: "uploadPicture",
+      dataIndex: "uploadPicture",
+      render: () => (
+        <span>
+          {" "}
+          <input
+            type="file"
+            id="avatar"
+            name="avatar"
+            value={file}
+            onChange={(e) => {
+              setFile(e.target.value);
+            }}
+            accept="image/*"
+            capture="environment"
+          />
+        </span>
+      ),
+    },
+    {
       key: "delete",
       dataIndex: "delete",
       render: () => (
@@ -57,13 +79,13 @@ function ManageEmployee() {
       key: "2",
       EmployeeId: 2877179,
       adhaarNumber: 98123457,
-      name: "alok",
+      name: "slok",
     },
     {
       key: "3",
       EmployeeId: 2877175,
       adhaarNumber: 98123457,
-      name: "alok",
+      name: "anlok",
     },
   ];
 
