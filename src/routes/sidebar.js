@@ -72,6 +72,16 @@ const routes = [
     icon: "ButtonsIcon",
     name: "Report",
   },
+  {
+    path: "/app/CamAdmin",
+    icon: "ButtonsIcon",
+    name: "CamAdmin",
+  },
+  {
+    path: "/app/CamWorker",
+    icon: "ButtonsIcon",
+    name: "CamWorker",
+  },
 
   // {
   //   path: "/app/modals",
